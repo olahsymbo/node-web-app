@@ -5,6 +5,7 @@ var cookieParser = require("cookie-parser");
 var passport = require("passport");
 var session = require("express-session");
 var flash = require("connect-flash");
+var bodyParser = require("body-parser");
 
 var params = require("./params/params");
 
